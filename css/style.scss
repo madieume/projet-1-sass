@@ -1,0 +1,182 @@
+@import "base";
+
+.fond{
+  width: 100%;
+  height: 90%;
+  margin-top: 5%;
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-size: cover;
+
+}
+body{
+   
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 120%;
+    
+   
+}
+header{
+    width: 60vw;
+    height: 20vh;
+    
+    }
+    .image{
+      width: 70%;
+      height: 100%;
+      background-color: aqua;
+      background-image: url(../assets/destination/background-image-moon.png);
+      /* background-size: cover; */
+    
+    
+    }
+    
+  
+    
+ 
+
+ nav{
+    width: 32vw;
+    height: 8vh;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    margin-right: 2%;
+    a{
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+    }
+ }
+ 
+
+
+ .trait{
+    width: 400px;
+    height: 1px;
+    opacity: 0.2515;
+    background: #FFF;
+    margin-left: 5%;
+   
+
+ }
+ .bloc{
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+h1{
+  font-size: 60px;
+}
+
+
+ .cercle{
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 274px;
+    background: #FFF;
+    color: black;
+    margin-left: 50%;
+    margin-top: -17%
+    }
+   
+
+   .cercle {
+     margin-left: 30%;
+   }
+   nav {
+    width: 32vw;
+    height: 8vh;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742271423px);
+    margin-right: 2%;
+  }
+  nav a {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+  
+  }
+  .section{
+         width: 100%;
+         height: 56%;
+         /* background-color: aqua; */
+       
+  
+  }
+  .image{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 0, 8);
+    background-image: url(../assets/destination/background-image-moon.png);
+    background-size: cover;
+  
+  
+  }
+  .text{
+    width: 45%;
+    height: 100%;
+    /* background-color: rgb(55, 255, 0); */
+    margin-left: 55%;
+   margin-top: -33%;
+  }
+  
+  a {
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    /* margin-top: 7%; */
+  
+  }
+  h1{
+    font-size:  40px;
+    color: white;
+    margin-top: 5%;
+    margin-left: -30%;
+  
+  
+  }
+  h6{
+    color: white;
+    margin-top: 3%;
+    margin-left: 8%;
+  
+  }
+  .traite {
+    width: 250px;
+    height: 1px;
+    opacity: 0.2515;
+    background: #FFF;
+    margin-left: 20%;
+    margin-top: 6%;
+  }
+  h5{
+    color: white;
+    margin-top: 3%;
+    margin-left: 19%;
+  
+  }
+  h4{
+    color: white;
+    margin-top: 3%;
+    margin-left: 19%;
+  
+  }
+  
+  
+ 
+ 
+//  /* Mobile Styles */
+//  @media only screen and (max-width: 520px) {
+//    .margin {
+//      margin-top: 6%;
+//    }
+ 
+//    nav {
+//      width: 80vw;
+//    }
+ 
+//    .cercle {
+//      margin-left: 30%;
+//    }
+ 

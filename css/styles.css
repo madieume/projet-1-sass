@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.ai {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.se {
+  justify-content: space-evenly;
+}
+
+.sa {
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.c {
+  color: white;
+}
+
+.ml {
+  margin-left: 5%;
+}
+
+.mt {
+  margin-top: 2%;
+}
+/* .fond{
+  width: 50%;
+  height: 80%;
+  margin-left: 20%;
+  margin-top: 5%;
+ 
+  background-size: cover;
+
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  height: 100vh;
+  width: 100%;
+
+}
+
+header {
+  width: 80vw;
+  height: 20vh;
+  margin-left: 18%;
+}
+
+
+
+nav {
+  width: 32vw;
+  height: 8vh;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742271423px);
+  margin-right: 2%;
+ 
+}
+nav a {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+
+}
+
+.trait {
+  width: 400px;
+  height: 1px;
+  opacity: 0.2515;
+  background: #FFF;
+  margin-left: 5%;
+}
+.bloc{
+  margin-top: 15%;
+  margin-left: 10%;
+}
+h1{
+  font-size: 60px;
+}
+
+
+.cercle {
+  width: 274px;
+  height: 274px;
+  flex-shrink: 0;
+  border-radius: 274px;
+  background: #FFF;
+  color: black;
+  margin-left: 85%;
+  /* margin-top: 1%; */
+}
+.cercle h2 {
+  text-align: center;
+}
+
+/* 
+ 
+Small devices (portrait desktop a, 992px and up)
+@media only screen and (max-width: 992px) {
+  .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+}
+/* Medium devices (landscape tablets, 768px and up)
+@media only t and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+} */
+/* Extra small devices (phones, 600px and down)
+@media only screen and (min-width: 600px) {
+  .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+} */
+
+
+# sourceMappingURL=style.css.map */

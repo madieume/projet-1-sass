@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+  background-color: #0B0D17;
+  display: flex;
+}
+
+header {
+  width: 100vw;
+  height: 25vh;
+  background-color: red;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=styke.css.map */
